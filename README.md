@@ -34,8 +34,6 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 - _Filebeat is used to wath the log output of the webservers._
 - _Metricbeat monitors the system metrics of the webservers_
 
-The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 |         Name         |  Function  | IP Address | Operating System |
 |:--------------------:|:----------:|:----------:|:----------------:|
@@ -78,7 +76,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![DockerPS.jpg](Images/DockerPS.png)
+![DockerPS.jpg](Images/dockerps.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
